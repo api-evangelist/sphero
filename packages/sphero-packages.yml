@@ -1,0 +1,69 @@
+generated: '2026-07-21'
+method: searched
+source: https://github.com/sphero-inc + https://sdk.sphero.com
+note: >-
+  Sphero ships first-party robot-control SDKs as source repositories on GitHub
+  (the Sphero Public SDK), not as published registry packages. Each SDK targets a
+  development board (Raspberry Pi, micro:bit, Arduino) rather than a hosted web API.
+packages:
+  - language: python
+    registry: github
+    name: sphero-sdk-raspberrypi-python
+    url: https://github.com/sphero-inc/sphero-sdk-raspberrypi-python
+    install: git clone https://github.com/sphero-inc/sphero-sdk-raspberrypi-python
+    description: Sphero RVR SDK to run on Raspberry Pi using Python.
+    official: true
+  - language: typescript
+    registry: github
+    name: sphero-sdk-raspberrypi-nodejs
+    url: https://github.com/sphero-inc/sphero-sdk-raspberrypi-nodejs
+    install: git clone https://github.com/sphero-inc/sphero-sdk-raspberrypi-nodejs
+    description: Sphero SDK to run on Raspberry Pi exposing a Node.js RESTful web API and web sockets.
+    official: true
+  - language: typescript
+    registry: github
+    name: sphero-sdk-raspberrypi-clientjs
+    url: https://github.com/sphero-inc/sphero-sdk-raspberrypi-clientjs
+    install: git clone https://github.com/sphero-inc/sphero-sdk-raspberrypi-clientjs
+    description: Sphero SDK web client that connects to the Node.js API running on a Raspberry Pi.
+    official: true
+  - language: cpp
+    registry: github
+    name: sphero-sdk-arduino-cpp
+    url: https://github.com/sphero-inc/sphero-sdk-arduino-cpp
+    install: git clone https://github.com/sphero-inc/sphero-sdk-arduino-cpp
+    description: Sphero SDK to run on Arduino using C++ (not under active development).
+    official: true
+  - language: python
+    registry: github
+    name: sphero-sdk-microbit-python
+    url: https://github.com/sphero-inc/sphero-sdk-microbit-python
+    install: git clone https://github.com/sphero-inc/sphero-sdk-microbit-python
+    description: Sphero SDK to run on micro:bit using Python.
+    official: true
+  - language: typescript
+    registry: github
+    name: sphero-sdk-microbit-makecode
+    url: https://github.com/sphero-inc/sphero-sdk-microbit-makecode
+    install: git clone https://github.com/sphero-inc/sphero-sdk-microbit-makecode
+    description: Sphero SDK to run on micro:bit for integrating into MakeCode.
+    official: true
+deprecated_packages:
+  - language: javascript
+    registry: github
+    name: sphero.js
+    url: https://github.com/sphero-inc/sphero.js
+    description: Legacy JavaScript SDK (archived / deprecated).
+    official: true
+  - language: swift
+    registry: github
+    name: Sphero-iOS-SDK
+    url: https://github.com/sphero-inc/Sphero-iOS-SDK
+    description: Legacy iOS SDK (archived / deprecated).
+    official: true
+  - language: java
+    registry: github
+    name: Sphero-Android-SDK
+    url: https://github.com/sphero-inc/Sphero-Android-SDK
+    description: Legacy Android SDK (archived / deprecated).
+    official: true

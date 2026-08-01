@@ -1,0 +1,32 @@
+# Sphero
+
+> Sphero designs programmable robots and STEAM (science, technology, engineering, arts, math)
+> learning tools for K-12 education. Its robot line — indi, Mini, BOLT+, Snap, littleBits, RVR+,
+> Blueprint — pairs with standards-aligned curriculum and a public robot-control SDK. Developers
+> program Sphero RVR+ / RVR robots from development boards (Raspberry Pi, micro:bit, Arduino) rather
+> than a hosted web API. This profile is maintained by API Evangelist as part of the APIs.io network.
+
+## Developer resources
+
+- [Sphero Public SDK](https://sdk.sphero.com): Setup guides, API reference and troubleshooting for programming Sphero robots from Raspberry Pi, micro:bit and Arduino.
+- [Sphero on GitHub (sphero-inc)](https://github.com/sphero-inc): First-party SDK source repositories.
+- [Support / Help Center](https://help.sphero.com): Product support and knowledge base.
+
+## SDKs
+
+- [sphero-sdk-raspberrypi-python](https://github.com/sphero-inc/sphero-sdk-raspberrypi-python): Python SDK for Sphero RVR on Raspberry Pi (actively developed).
+- [sphero-sdk-raspberrypi-nodejs](https://github.com/sphero-inc/sphero-sdk-raspberrypi-nodejs): Node.js SDK exposing a RESTful web API and web sockets on Raspberry Pi.
+- [sphero-sdk-raspberrypi-clientjs](https://github.com/sphero-inc/sphero-sdk-raspberrypi-clientjs): Web-client SDK that talks to the Raspberry Pi Node.js API.
+- [sphero-sdk-arduino-cpp](https://github.com/sphero-inc/sphero-sdk-arduino-cpp): C++ SDK for Arduino.
+- [sphero-sdk-microbit-python](https://github.com/sphero-inc/sphero-sdk-microbit-python): Python SDK for micro:bit.
+- [sphero-sdk-microbit-makecode](https://github.com/sphero-inc/sphero-sdk-microbit-makecode): micro:bit SDK for MakeCode.
+
+## Education
+
+- [Sphero (home)](https://sphero.com): Products and STEAM learning platform.
+- [Sphero Central / Lessons](https://edu.sphero.com): Standards-aligned (NGSS, CSTA, ISTE) curriculum and lessons.
+- [Blog](https://sphero.com/blogs/news): Company and education news.
+
+## Legal
+
+- [Privacy Policy](https://sphero.com/pages/privacy)
